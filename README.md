@@ -1,4 +1,4 @@
 # BasicPhysics01
 The basic physics for an platform-er game.
-Developing using P5js. No other physics library
-has been used.
+Mainly basic game physics scripts.
+Sometimes used p5js.
