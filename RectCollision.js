@@ -1,5 +1,6 @@
 /*
 Basic rectangle class for sprites and animation with simple collision algorithm.
+vel is a feature of type Vector()
 
 TODO : ADD ROTATION
 */
@@ -7,12 +8,13 @@ TODO : ADD ROTATION
 
 class RectBody
 {
-    constructor(x, y, w, h)
+    constructor(x, y, w, h, vel = 0)
     {
         this.x = x;
         this.y = y;
         this.w = w;
         this.h = h;
+        this.vel = vel;
     }
     getCollision(obj)
     {
