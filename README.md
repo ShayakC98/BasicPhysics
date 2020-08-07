@@ -1,4 +1,5 @@
 # Basic Game Physics
-The basic physics for an platform-er game.
+The basic physics engine for an platform-er kind of game.
 Mainly basic game physics scripts.
-Sometimes used p5js.
+
+Sometimes used p5js for rendering.
